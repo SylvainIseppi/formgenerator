@@ -1,0 +1,12 @@
+ ErrorDocument 404 /formGenerator/404.php 
+ Options +FollowSymlinks
+RewriteEngine on
+
+RewriteRule createform$ index.php?page=form [L] 
+RewriteRule generateform$ index.php?page=generate [L] 
+RewriteRule selectSQLRequest$ index.php?page=sqlgen [L] 
+RewriteRule index$ index.php?page=index [L] 
+RewriteRule MysqlConnexion$ index.php?page=formconnexionbdd [L] 
+RewriteRule GenerateMysqlConnexion$ index.php?page=codeConnexion [L] 
+
+RewriteRule erreur.html$ index.php?page=404 [L]
