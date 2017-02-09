@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.51);
+}
+
+.full-width {
+    width: 100%;
+}
+
+#dropzone {
+    list-style: outside none none;
+    padding-left: 0;
+}
+
+.drop-zone {
+    width: 100%;
+    min-height: 400px;
+    padding: 20px;
+}
+
+.drop-zone > span {
+    width: 100%;
+}
